@@ -1,0 +1,11 @@
+Model Information:
+* title:	Retro Computer
+* source:	https://sketchfab.com/3d-models/retro-computer-78bedd5bc4aa422296181fc28042426b
+* author:	FishyBusiness (https://sketchfab.com/FishyBusiness)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Retro Computer" (https://sketchfab.com/3d-models/retro-computer-78bedd5bc4aa422296181fc28042426b) by FishyBusiness (https://sketchfab.com/FishyBusiness) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

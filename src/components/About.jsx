@@ -9,7 +9,7 @@ import { SectionWrapper } from "../HOC";
 
 const ServiceCard = ({ index, title, icon }) => {
 	return (
-		<Tilt className="xs:w-[250px] w-full">
+		<Tilt className=" w-[75%] ">
 			<motion.div
 				variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
 				className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => {
 						scale: 1,
 						speed: 450,
 					}}
-					className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+					className="bg-tertiary rounded-[20px] py-2 px-12 min-h-[120px] flex justify-evenly items-center flex-col"
 				>
 					<img src={icon} alt={title} className="w-16 h-16 object-contain" />
 					<h3 className="text-white text-[20px] font-bold text-center">
@@ -43,12 +43,10 @@ const About = () => {
 				<h2 className={styles.sectionHeadText}>Overview</h2>
 			</motion.div>
 			<motion.p variants={fadeIn("", "", 0.1, 1)}>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit,
-				eligendi soluta? Tenetur totam reprehenderit consectetur ad veniam odit
-				temporibus explicabo quo earum fuga placeat, similique blanditiis iure
-				dolore maxime deleniti.
+				A Front end developer based in Seattle, Washington. Passionate in
+				developing responsive designs for web applications.
 			</motion.p>
-			<div className="mt-20 flex flex-wrap gap-10">
+			<div className="mt-10 flex flex-wrap gap-10 justify-center">
 				{services.map((service, i) => (
 					<ServiceCard key={service.title} index={i} {...service} />
 				))}

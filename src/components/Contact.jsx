@@ -16,11 +16,46 @@ const Contact = () => {
 		message: "",
 	});
 
-	const handleChange = (e) => {};
+	const handleChange = (e) => {
+		const { name, value } = e.target;
+
+		setForm({ ...form, [name]: value });
+	};
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		console.log(e.target.value);
+		setLoading(true);
+
+		emailjs
+			.send(
+				"service_pkyro7k",
+				"template_dae5hg7",
+				{
+					from_name: form.name,
+					to_name: "Canni",
+					from_email: form.email,
+					to_email: "cannigialaluw@gmail.com",
+					message: form.message,
+				},
+				"LCs0wybM44qhiLNKh"
+			)
+			.then(
+				() => {
+					console.log(form.email);
+					setLoading(false);
+					alert("Thank you. I will get back to you as soon as possible.");
+					setForm({
+						name: "",
+						email: "",
+						message: "",
+					});
+				},
+				(error) => {
+					setLoading(false);
+					console.log(error);
+					alert("Something went wrong.");
+				}
+			);
 	};
 
 	return (

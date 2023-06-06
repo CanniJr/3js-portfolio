@@ -69,10 +69,8 @@ const Works = () => {
 					variants={fadeIn("", "", 0.1, 1)}
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 				>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa et
-					error autem quod distinctio assumenda dicta ullam quaerat sint.
-					Laudantium eum accusamus dolor repellat, pariatur illum itaque ratione
-					nesciunt libero.
+					Some of the projects I&apos;ve worked on using a mix of the tech
+					stacks I am familiar with.
 				</motion.p>
 			</div>
 			<div className="mt-20 flex flex-wrap gap-7">

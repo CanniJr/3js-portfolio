@@ -120,7 +120,7 @@ const experiences = [
 		title: "Outbound Problem Solver",
 		company_name: "Amazon",
 		icon: amazon,
-		iconBg: "#383E56",
+		iconBg: "#E6DEDD",
 		date: "Nov 2017 - Oct 2020",
 		points: [
 			"Streamlined communication of operational priorities across departments, minimizing errors from automated workflows and resulting in a 10% boost in overall productivity. Promoted to a Problem-Solving position within 6 months.",

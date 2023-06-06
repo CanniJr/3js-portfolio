@@ -161,15 +161,15 @@ const projects = [
 
 		tags: [
 			{
-				name: "react,",
+				name: "react/typescript,",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "typescript",
+				name: "chakra-ui",
 				color: "green-text-gradient",
 			},
 			{
-				name: "Chakra UI",
+				name: "react-router",
 				color: "pink-text-gradient",
 			},
 		],
@@ -179,7 +179,7 @@ const projects = [
 	{
 		name: "Trackit-19",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"React app to track coronavirus cases, recovery and deaths using Leaflet.js for map functionality.",
 		tags: [
 			{
 				name: "react",
@@ -187,7 +187,7 @@ const projects = [
 			},
 			{
 				name: "restapi",
-				color: "green-text-gradient",
+				color: "text-yellow-200",
 			},
 			{
 				name: "css",
@@ -200,23 +200,23 @@ const projects = [
 	{
 		name: "PickMealUp",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"This mobile app finds restaurants that serves take away orders in the local area.",
 		tags: [
 			{
-				name: "React Native",
+				name: "react-native",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "Context",
+				name: "context",
 				color: "green-text-gradient",
 			},
 			{
-				name: "Styled-components",
+				name: "styled-components",
 				color: "pink-text-gradient",
 			},
 		],
 		image: pickmealup,
-		source_code: "https://github.com/",
+		source_code: "https://github.com/CanniJr/PickMealUp",
 	},
 ];
 

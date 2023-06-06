@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import emoji from "react-easy-emoji";
 
 const Hero = () => {
 	return (
@@ -14,7 +15,14 @@ const Hero = () => {
 				</div>
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
-						Hi, I am <span className="text-[#915eff]">Canni</span>
+						Hi, I am{" "}
+						<span className="text-[#915eff] ">
+							Canni.
+							<span className="inline-block animate-wave ml-5">
+								{" "}
+								{emoji("👋")}
+							</span>{" "}
+						</span>
 					</h1>
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
 						A Front end developer.

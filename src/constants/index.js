@@ -135,10 +135,11 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "Aug 2014 - June 2017",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Helped maintain the flow of work and communication between the Back and Front of the Restaurant.",
+			"Leveraged my knowledge in food and beverages to make recommendations to diners.",
+			"Ensure the cleanliness of the dining area and kitchen throughout opening and closing.",
+			"Served guests in a fast-paced environment and manage to communicate with diners in taking orders, remove/add silverware for an optimal experience.",
+			"Trained 10+ servers and familiarize new staff with the restaurant culture.",
 		],
 	},
 
@@ -148,12 +149,7 @@ const experiences = [
 		icon: starbucks,
 		iconBg: "#383E56",
 		date: "2012 - 2013",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
+		points: [],
 	},
 ];
 

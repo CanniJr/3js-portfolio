@@ -22,6 +22,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+// socials
+import instagram from "./instagram.png";
+import linkedin from "./linkedin.png";
+import medium from "./medium.png";
+
 // companies || school
 import flatiron from "./flatiron.png";
 import ctsh from "./company/ctsh.png";
@@ -65,4 +70,7 @@ export {
 	pickmealup,
 	gameshack,
 	trackit,
+	instagram,
+	medium,
+	linkedin,
 };

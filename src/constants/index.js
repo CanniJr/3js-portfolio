@@ -24,6 +24,10 @@ import {
 	trackit,
 	gameshack,
 	threejs,
+	instagram,
+	medium,
+	linkedin,
+	github,
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +105,33 @@ const technologies = [
 	// 	name: "docker",
 	// 	icon: docker,
 	// },
+];
+
+const social_links = [
+	{
+		platform: "github",
+		icon: github,
+		bgcolor: "#333",
+		link: "https://github.com/CanniJr",
+	},
+	{
+		platform: "linkedin",
+		icon: linkedin,
+		bgcolor: "#0e76a8",
+		link: "https://www.linkedin.com/in/cannigia-laluw",
+	},
+	// {
+	// 	platform: "medium",
+	// 	icon: medium,
+	// 	bgcolor: "#000",
+	// 	link: "https://cannigialaluw.medium.com/",
+	// },
+	{
+		platform: "instagram",
+		icon: instagram,
+		bgcolor: "#c13584",
+		link: "https://www.instagram.com/kanigeeuh/",
+	},
 ];
 
 const experiences = [
@@ -220,4 +251,4 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, social_links };

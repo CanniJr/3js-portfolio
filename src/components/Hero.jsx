@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import emoji from "react-easy-emoji";
+import { social_links } from "../constants";
+import Socials from "./Socials";
 
 const Hero = () => {
 	return (
@@ -24,9 +26,11 @@ const Hero = () => {
 							</span>{" "}
 						</span>
 					</h1>
-					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-						A Front end developer.
-					</p>
+					<div className="flex">
+						{social_links.map((social) => (
+							<Socials key={social.platform} social={social} />
+						))}
+					</div>
 				</div>
 			</div>
 			<ComputersCanvas />

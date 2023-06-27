@@ -7,7 +7,7 @@ import CanvasLoader from "../Loader";
 // import Retro from "./Retro";
 
 const Retro = ({ isMobile }) => {
-	const { scene } = useGLTF("/retro_computer/scene.gltf");
+	const { scene } = useGLTF("/laptop.gltf");
 
 	return (
 		<mesh>
@@ -21,8 +21,8 @@ const Retro = ({ isMobile }) => {
 			/>
 			<primitive
 				object={scene}
-				position={[0, -3.25, -1.5]}
-				scale={isMobile ? 2.0 : 4.5}
+				position={[0, -5.25, -1.5]}
+				scale={isMobile ? 2.0 : 3.5}
 				rotation={[-0.01, -0.2, -0.1]}
 			/>
 		</mesh>
@@ -65,7 +65,8 @@ const ComputersCanvas = () => {
 			{/* <Stage environment="city" intensity={0.6}> */}
 			<Suspense fallback={<CanvasLoader />}>
 				<OrbitControls
-					// autoRotate
+				autoRotateSpeed={5}
+					autoRotate
 					enableZoom={false}
 					maxPolarAngle={Math.PI / 2}
 					minPolarAngle={Math.PI / 2}
